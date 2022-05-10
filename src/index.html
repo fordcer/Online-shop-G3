@@ -4,11 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    <div class="bg-midnight text-tahiti">
-      <p class="">test merge</p>
+    <p class="text-center text-4xl">ผลิตภัณฑ์</p>
+    <div class="flex flex-row justify-center">
+      <div class="flex flex-col">
+        <div class="flex flex-row">
+          <a class="border-dotted border-r-2" href=""><img src="../src/asset/food.jpg" alt=""></a>
+          <a href=""><img src="../src/asset/beverage.jpg" alt=""></a>
+        </div>
+        <a class="border-dotted border-r-2 border-t-2" href=""><img src="../src/asset/fabric.jpg" alt=""></a>
+      </div>
+      <div class="flex flex-col">
+        <a class="border-dotted border-l-2 border-b-2" href=""><img src="../src/asset/apparatus.jpg" alt=""></a>
+        <a href=""><img src="../src/asset/herb.jpg" alt=""></a>
+      </div>
+    </div>
+    <div class="relative bg-elephant h-96 bg-center bg-fixed bg-no-repeat bg-cover">
+      <div class="absolute -top-24 left-1/4">
+        <img src="../src/asset/fac-circle.png" alt="">
+      </div>
+    </div>
+    <p class="text-center text-4xl">สินค้าแนะนำ</p>
+    <div class="flex flex-col">
+      <div class="flex flex-row justify-start">
+        <div class="p-10">
+          <img src="../src/asset/rec_product1.jpg" alt="">
+        </div>
+        <div class="p-10">
+          <img src="../src/asset/rec_product2.jpg" alt="">
+        </div>
+        <div class="p-10">
+          <img src="../src/asset/rec_product3.jpg" alt="">
+        </div>
+        <div class="p-10">
+          <img src="../src/asset/rec_product4.png" alt="">
+        </div>
+      </div>
+      <div class="flex flex-row justify-start">
+        <div class="p-10">
+          <img src="../src/asset/rec_product5.jpg" alt="">
+        </div>
+        <div class="p-10">
+          <img src="../src/asset/rec_product6.jpg" alt="">
+        </div>
+        <div class="p-10">
+          <img src="../src/asset/rec_product7.jpg" alt="">
+        </div>
+      </div>
     </div>
   </body>
 </html>
