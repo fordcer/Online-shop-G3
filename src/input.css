@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Montserrat&family=Roboto&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.setScreenFlexRow{
+    @apply w-screen h-auto flex flex-row justify-around
+}
+.setFlexRow{
+    @apply flex flex-row
+}
+.setFontTopic{
+    @apply font-topicFont text-topic text-lg mb-2
+}
+.setNormalText{
+    @apply font-messageFont text-normalText font-light text-sm
+}
+.setMessageText{
+    @apply font-messageFont text-messageColor font-light text-sm
+}

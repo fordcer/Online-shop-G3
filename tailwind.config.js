@@ -1,19 +1,26 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./**/**/*.{html,js}"],
   theme: {
     extend: {},
     colors: {
-      transparent: 'transparent',
-      current: 'currentColor',
-      'white': '#ffffff',
-      'purple': '#3f3cbb',
-      'midnight': '#121063',
-      'metal': '#565584',
-      'tahiti': '#3ab7bf',
-      'silver': '#ecebff',
-      'bubble-gum': '#ff77e9',
-      'bermuda': '#78dcca',
+      transparent: "transparent",
+      current: "currentColor",
+      white: "#ffffff",
+      topic: '#57201f',
+      normalText: '#777',
+      bgContact: '#511818',
+      bgOtop: '#faf7f2',
+      messageColor: '#80807f',
+      callColor:'#FAED19'
+    },
+    fontFamily: {
+      messageFont:['Roboto','Kanit','sans-serif'],
+      topicFont: ['Montserrat', 'Kanit', 'sans-serif'],
+    },
+    screens: {
+      'iphone': '414px',
+      'tablet': '912px',
     },
   },
   plugins: [],
-}
+};
