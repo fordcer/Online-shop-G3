@@ -2,6 +2,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+        /* font-family: 'Koulen', cursive; */
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+.product {
+    @apply p-10 border-2 border-gray-100 flex flex-col justify-end items-center relative w-80 h-72 m-4 mt-28;
+}
 .setScreenFlexRow{
     @apply w-screen h-auto flex flex-row justify-around
 }

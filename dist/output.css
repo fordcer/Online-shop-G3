@@ -18,7 +18,7 @@
   /* 2 */
   border-style: solid;
   /* 2 */
-  border-color: currentColor;
+  border-color: #e5e7eb;
   /* 2 */
 }
 
@@ -425,6 +425,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: none;
 }
 
+html {
+  /* font-family: 'Koulen', cursive; */
+  font-family: 'Montserrat', sans-serif;
+}
+
 *, ::before, ::after{
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -468,6 +473,173 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-opacity:  ;
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.-top-24 {
+  top: -6rem;
+}
+
+.left-96 {
+  left: 24rem;
+}
+
+.left-5 {
+  left: 1.25rem;
+}
+
+.top-3 {
+  top: 0.75rem;
+}
+
+.m-14 {
+  margin: 3.5rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.mt-40 {
+  margin-top: 10rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.ml-14 {
+  margin-left: 3.5rem;
+}
+
+.mr-10 {
+  margin-right: 2.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.border-r-2 {
+  border-right-width: 2px;
+}
+
+.border-t-2 {
+  border-top-width: 2px;
+}
+
+.border-l-2 {
+  border-left-width: 2px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-dotted {
+  border-style: dotted;
+}
+
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
+
+.bg-elephant {
+  background-image: url('../src/asset/bg-elep.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-fixed {
+  background-attachment: fixed;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-14 {
+  padding: 3.5rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .container{
@@ -1963,6 +2135,15 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
 }
 
+.text-yellow-400 {
+  --tw-text-opacity: 1;
+  color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
 .font-medium{
   font-weight: 500;
 }
@@ -2040,6 +2221,21 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.product {
+  position: relative;
+  margin: 1rem;
+  margin-top: 7rem;
+  display: flex;
+  height: 18rem;
+  width: 20rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border-width: 2px;
+  --tw-border-opacity: 1;
+  border-color: rgb(243 244 246 / var(--tw-border-opacity));
+  padding: 2.5rem;
+}
 .text-callColor{
   --tw-text-opacity: 1;
   color: rgb(250 237 25 / var(--tw-text-opacity));
